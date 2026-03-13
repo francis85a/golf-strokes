@@ -5,6 +5,8 @@ package edu.teamrocket.golfstrokes;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Hole hole = new Hole((byte) 1, (byte) 4);
+
+        System.out.println(hole);
     }
 }
