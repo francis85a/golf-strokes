@@ -20,7 +20,7 @@ class Hole {
     }
 
     @Override
-    publicString toString() {
+    public String toString() {
         return "Hole " + this.number + " (Par " + this.par + ")";
     }
 
