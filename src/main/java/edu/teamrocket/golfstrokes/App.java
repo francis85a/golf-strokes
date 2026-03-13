@@ -1,4 +1,4 @@
-package edu.teamrocket;
+package edu.teamrocket.golfstrokes;
 
 /**
  * Hello world!
