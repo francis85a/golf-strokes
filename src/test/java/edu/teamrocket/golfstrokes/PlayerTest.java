@@ -24,5 +24,14 @@ class PlayerTest {
         assertEquals((byte) 0, playerMJ.getHandicap());
     }
 
+    @Test
+    void getPointsReturnZeroByDefault() {
+        assertEquals((short) 0, playerMJ.getPoints());
+    }
+
+    @Test
+    void getShortScoreReturnZeroByDefault() {
+        assertEquals((short) 0, playerMJ.getScore());
+    }
 
 }
