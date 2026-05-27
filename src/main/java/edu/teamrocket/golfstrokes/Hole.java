@@ -1,22 +1,21 @@
 package edu.teamrocket.golfstrokes;
 
-class Hole {
+public class Hole {
             
-    private Byte number = 0;
-    private Byte par = 0;
+    private Byte number;
+    private Byte par;
 
-    Hole(Byte number, Byte par) {
-    this.number = number;
-    this.par = par;
+    public Hole(Byte number, Byte par) {
+        this.number = number;
+        this.par = par;
     }
 
-    Byte getNumber() {
+    public Byte getNumber() {
         return this.number;
     }
 
-    Byte getPar() {
+    public Byte getPar() {
         return this.par;
-
     }
 
     @Override

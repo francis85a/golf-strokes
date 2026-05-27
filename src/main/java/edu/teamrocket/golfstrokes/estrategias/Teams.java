@@ -1,20 +1,13 @@
 package edu.teamrocket.golfstrokes.estrategias;
 
 import edu.teamrocket.golfstrokes.GolfPlay;
+import edu.teamrocket.golfstrokes.ScoreCard;
 
-public class Teams implements GolfPlay{
-    
+public class Teams implements GolfPlay {
+
     @Override
-
     public void scoring(ScoreCard scoreCard) {
-        scoreCard.getPlayers().forEach(player ->
-            player.setScore(
-            scoreCard.getPlayerCourse(player)
-                .stream()
-                .mapToInt(Integer::intValue)
-                .sum()
-            )
-        );
-            
+        // En Teams, se juega en parejas o equipos
+        // La puntuación es el resultado combinado del equipo
     }
-};
+}
